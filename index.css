@@ -1,0 +1,358 @@
+.login-btn{
+ width: 53;
+height: 29;
+top: 58px;
+left: 1117px;
+opacity: 1;
+font-family: Poppins;
+font-weight: 500;
+font-style: Medium;
+font-size: 18px;
+line-height: 28.5px;
+letter-spacing: 0%;
+
+}
+
+
+.btn-color{
+ width: 119;
+height: 49;
+top: 48px;
+left: 1186px;
+border-radius: 10px;
+opacity: 1;
+color: #FFFFFF;
+background-color: #FF6600 !important;
+font-family: Poppins;
+font-weight: 500;
+font-style: Medium;
+font-size: 18px;
+line-height: 28.5px;
+letter-spacing: 0%;
+
+}
+
+.home{
+ width: 39;
+height: 29;
+top: 58px;
+left: 489px;
+opacity: 1;
+font-family: Abel;
+font-weight: 400;
+font-style: Regular;
+font-size: 18px;
+line-height: 28.5px;
+letter-spacing: 0%;
+color: #000000;
+}
+
+.about-us{
+    width: 82;
+height: 29;
+top: 58px;
+left: 576px;
+opacity: 1;
+font-family: Poppins;
+font-weight: 500;
+font-style: Medium;
+font-size: 18px;
+line-height: 28.5px;
+letter-spacing: 0%;
+color: #000000;
+}
+
+/* Hero Css */
+.hero-d1{
+width: 653;
+height: 338;
+top: 211px;
+left: 135px;
+opacity: 1;
+
+}
+.hero-h1{
+ font-family: Poppins;
+font-weight: bolder;
+font-style: Black;
+font-size: 90px;;
+line-height: 81px;
+letter-spacing: 0%;
+color: #000000;
+
+}
+
+.hero-p{
+    font-family: Poppins;
+font-weight: 600;
+font-style: Medium;
+font-size: 22px;
+line-height: 28.5px;
+letter-spacing: 0%;
+
+}
+
+.hero-btn {
+  width: 162px;
+  height: 49px;
+  padding: 15px 30px;
+  border-radius: 10px;
+  opacity: 1;
+  color: #FFFFFF;
+  background-color: #FF6600;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 16px;
+  text-decoration: none;
+  border: none;
+  cursor: pointer;
+  display: inline-block;
+  text-align: center;
+}
+.hero-play{
+    margin-left: -45px;
+    padding: 10px;
+    
+    
+}
+
+.hero-a{
+    text-decoration: none;
+    color: #000000;
+    padding: 10px;
+    font-family: Abel;
+font-weight: 400;
+font-style: Regular;
+font-size: 18px;
+line-height: 28.5px;
+letter-spacing: 0%;
+
+}
+
+.semi-circle{
+width: 60px;
+height: 30px;
+border-radius: 50% 50% 0 0 / 100% 100% 0 0;
+border: 4px solid #FF6600;
+border-bottom: 0;
+rotate: -90deg;
+margin-left: 20px;
+margin-top: 15px;
+}
+
+
+
+ .hero-img{
+  background-image: url(assets/Ellipse\ 1.png);
+  background-size: cover;
+  position: relative;
+  bottom: -20px;
+ }
+ 
+ .hero {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      /* height: 100vh; */
+      position: relative;
+      overflow: hidden;
+    }
+
+    /* Large Circle Background */
+    .circle-bg {
+      position: absolute;
+      width: 410px;
+      height: 410px;
+      border-radius: 50%;
+      background: #ffffff;
+      box-shadow: 0 0 20px rgba(0, 0, 0, 0.05);
+      z-index: 1;
+    }
+
+  
+
+    /* Person Image */
+    .hero img {
+      position: relative;
+      z-index: 3;
+      /* max-width: 400px; */
+    }
+
+    .top-box{
+      width: 275px;
+      height: 73px;
+    }
+
+
+    /* Notification Cards */
+    .notification {
+      position: absolute;
+      display: flex;
+      align-items: center;
+      background: #fff;
+      padding: 10px 20px;
+      border-radius: 12px;
+      box-shadow: 0 4px 20px rgba(0,0,0,0.08);
+      font-size: 14px;
+      z-index: 5;
+    }
+
+    .notification img {
+      width: 24px;
+      height: 24px;
+      margin-right: 10px;
+    }
+
+    .notification .rating {
+      color: #f5a623; /* star color */
+      margin-left: 5px;
+      font-weight: bold;
+    }
+
+    /* Positioning notifications */
+    .notification.top {
+      top: 10%;
+      left: 10%;
+      z-index: 2;
+    }
+
+    .notification.bottom {
+      bottom: 20%;
+      left: 5%;
+      z-index: 2;
+    }
+
+    /* Service Section CSS Start*/
+
+    .service{
+      letter-spacing: 4px;
+    }
+
+    .service-card{
+      width: 352px;
+      height: 500px;
+      border-radius: 28px;
+      padding: 0 35px;
+    }
+    .service-h3{
+      font-family: Abel;
+font-weight: 400;
+font-style: Regular;
+font-size: 38px;
+line-height: 28.5px;
+letter-spacing: 0px;
+text-align: center;
+
+    }
+.service-p{
+  font-family: Poppins;
+font-weight: 400;
+font-style: Regular;
+font-size: 20px;
+line-height: 28.5px;
+letter-spacing: 0px;
+text-align: center;
+
+}
+
+.service-btn-color{
+  width: 119;
+height: 49;
+top: 48px;
+left: 1186px;
+border-radius: 10px;
+opacity: 1;
+color: #FFFFFF;
+background-color: #FF6600 !important;
+font-family: Poppins;
+font-weight: 500;
+font-style: Medium;
+font-size: 18px;
+line-height: 28.5px;
+letter-spacing: 0%;
+padding: 8px 40px;
+}
+/* 
+Service Section End */
+
+/* Component CSS */
+
+.component-img{
+  width: 687.5257568359375px;
+height: 385.9793701171875px;
+top: 1697.01px;
+left: 617.47px;
+opacity: 1;
+
+}
+
+.component-btn{
+margin-top: 80px;
+padding: 10px 30px;
+}
+
+/* Component CSS End */
+/* 
+Client Review Section CSS  */
+
+.client-card{
+  width: 470px;
+height: 237px;
+top: 2407px;
+left: 235px;
+opacity: 1;
+
+}
+.client-p{
+  letter-spacing: 6px;
+}
+.client-img{
+  width: 70px;
+height: 70px;
+top: 36px;
+left: 35px;
+opacity: 1;
+border-radius: 10px;
+
+}
+/* Team Section CSS */
+
+.team-p{
+   letter-spacing: 6px;
+}
+
+.team-card{
+  height: 370px;
+  width: 370px;
+  border: 1px solid rgb(229, 216, 216);
+}
+.team-member{
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+}
+
+.Socials{
+  margin-top: 38px;
+  margin-left: -13px;
+}
+
+
+.input-email{
+  width: 700px;
+height: 77px;
+top: 3968px;
+left: 605px;
+opacity: 1;
+border-radius: 49px;
+border: none;
+font-family: Roboto;
+font-weight: 400;
+font-style: Regular;
+font-size: 24px;
+line-height: 28.5px;
+letter-spacing: 0%;
+
+
+}
